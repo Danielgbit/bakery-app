@@ -14,5 +14,13 @@ body {
 }
 
 .bg-navbar {
-  background-color: #ffe2a987;
+  background-color: #fff0d1;
+}
+
+.bg-found {
+  background-color: #fff0d1;
+}
+
+.bg-events {
+  background-color: #67583b;
 }
