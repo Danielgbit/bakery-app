@@ -10,8 +10,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: var(--font-dm-sans);
+  letter-spacing: -0.8px;
 }
 
 .bg-navbar {
-  background-color: #fdde88;
+  background-color: #ffe2a987;
 }
