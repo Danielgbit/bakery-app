@@ -11,15 +11,13 @@ body {
   padding: 0;
   font-family: var(--font-dm-sans);
   letter-spacing: -0.8px;
+  background-color: #fff0d1;
 }
 
 .bg-navbar {
   background-color: #fff0d1;
 }
 
-.bg-found {
-  background-color: #fff0d1;
-}
 
 .bg-events {
   background-color: #67583b;

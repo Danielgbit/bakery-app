@@ -20,6 +20,13 @@
       imagen: "https://source.unsplash.com/300x200/?bread",
       alt: "Pan artesanal",
     },
+        {
+      id: 4,
+      nombre: "Baguette",
+      descripcion: "La clásica francesa, horneada con pasión.",
+      imagen: "https://source.unsplash.com/300x200/?baguette",
+      alt: "Baguette",
+    },
   ];
 
   export default products;
