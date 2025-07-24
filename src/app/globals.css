@@ -18,7 +18,14 @@ body {
   background-color: #fff0d1;
 }
 
-
 .bg-events {
   background-color: #67583b;
+}
+
+.bg-cards {
+  background-color: #d6b981;
+}
+
+.border-color {
+  border-color: #ffeac0;
 }
