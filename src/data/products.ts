@@ -1,32 +1,52 @@
-  const products = [
-    {
-      id: 1,
-      nombre: "Croissant",
-      descripcion: "Crujiente por fuera, suave por dentro.",
-      image: "https://images.unsplash.com/photo-1612539466296-4ecf1db303e3?q=80&w=1243&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Croissant",
-    },
-    {
-      id: 2,
-      nombre: "Baguette",
-      descripcion: "La clásica francesa, horneada con pasión.",
-      image: 'https://images.unsplash.com/photo-1612539466296-4ecf1db303e3?q=80&w=1243&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
-      alt: "Baguette",
-    },
-    {
-      id: 3,
-      nombre: "Pan artesanal",
-      descripcion: "Hecho a mano con ingredientes locales.",
-      image: "https://images.unsplash.com/photo-1612539466296-4ecf1db303e3?q=80&w=1243&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Pan artesanal",
-    },
-        {
-      id: 4,
-      nombre: "Baguette",
-      descripcion: "La clásica francesa, horneada con pasión.",
-      image: "https://images.unsplash.com/photo-1612539466296-4ecf1db303e3?q=80&w=1243&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      alt: "Baguette",
-    },
-  ];
+const products = [
+  {
+    id: 1,
+    nombre: "Pan francés",
+    descripcion: "Crujiente por fuera, suave por dentro.",
+    image: "/img/pan-frances.jpg",
+    alt: "Pan francés",
+    categoria: "panes",
+  },
+  {
+    id: 2,
+    nombre: "Croissant",
+    descripcion: "Hecho con mantequilla real.",
+    image: "/img/croissant.jpg",
+    alt: "Croissant",
+    categoria: "panes",
+  },
+  {
+    id: 3,
+    nombre: "Tarta de fresa",
+    descripcion: "Postre fresco con crema pastelera.",
+    image: "/img/tarta-fresa.jpg",
+    alt: "Tarta de fresa",
+    categoria: "postres",
+  },
+  {
+    id: 4,
+    nombre: "Brownie",
+    descripcion: "Con trozos de nuez y chocolate.",
+    image: "/img/brownie.jpg",
+    alt: "Brownie",
+    categoria: "postres",
+  },
+  {
+    id: 5,
+    nombre: "Ensalada César",
+    descripcion: "Clásica con aderezo y croutons.",
+    image: "/img/ensalada-cesar.jpg",
+    alt: "Ensalada César",
+    categoria: "ensaladas",
+  },
+  {
+    id: 6,
+    nombre: "Ensalada mixta",
+    descripcion: "Lechuga, tomate, zanahoria y huevo.",
+    image: "/img/ensalada-mixta.jpg",
+    alt: "Ensalada mixta",
+    categoria: "ensaladas",
+  },
+];
 
-  export default products;
+export default products;
