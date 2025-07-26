@@ -15,7 +15,11 @@ body {
 }
 
 .bg-navbar {
-  background-color: #fff0d1;
+  background: linear-gradient(
+    90deg,
+    rgba(199, 166, 99, 0.546) 0%,
+    rgba(158, 101, 3, 1) 100%
+  );
 }
 
 .bg-events {
@@ -28,4 +32,16 @@ body {
 
 .border-color {
   border-color: #ffeac0;
+}
+
+.text-navbar {
+  color: #ffedc9;
+
+  &:hover {
+    color: #5a3d07;
+  }
+}
+
+.text-logo {
+  color: #3b2802;
 }
