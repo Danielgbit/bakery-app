@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Product } from "@/types";
+import { Product } from "@/interface/Product";
 
 type ProductCardProps = {
   product: Product;
