@@ -15,16 +15,20 @@ body {
   background-color: #fff0d1;
 }
 
-.bg-navbar {
-  background: linear-gradient(
-    90deg,
-    rgba(199, 166, 99, 0.546) 0%,
-    rgba(158, 101, 3, 1) 100%
-  );
-}
+/* LETTER SPACING */
 
 .tracking-text {
   letter-spacing: -0.9px;
+}
+
+/* BACKGROUNDS */
+
+.bg-navbar {
+  background: linear-gradient(
+    90deg,
+    rgb(199, 166, 99) 90%,
+    rgb(99, 64, 2) 100%
+  );
 }
 
 .bg-events {
@@ -54,9 +58,14 @@ body {
   background-color: #c69e5d;
 }
 
+/* COLOR BORDER */
+
 .border-color {
   border-color: #ffeac0;
 }
+
+
+/* TEXT COLORS */
 
 .text-navbar {
   color: #ffedc9;
@@ -80,7 +89,7 @@ body {
 
 .text-tertiary {
   color: #523205;
-/*   &:hover {
+  /*   &:hover {
     color: #ffd47f;
   } */
 }
