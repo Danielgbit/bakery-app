@@ -3,7 +3,7 @@ const Button = ({ href = "#", children = '' }) => {
     <div>
       <a
         href={href}
-        className="bg-yellow-500 text-white py-2 px-4 rounded hover:bg-yellow-600 transition"
+        className="bg-button text-tertiary text-sm hover:text-amber-400 font-semibold py-2 px-4 rounded-xl transition"
       >
         {children}
       </a>

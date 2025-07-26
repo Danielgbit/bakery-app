@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -22,12 +23,35 @@ body {
   );
 }
 
+.tracking-text {
+  letter-spacing: -0.9px;
+}
+
 .bg-events {
   background-color: #67583b;
 }
 
 .bg-cards {
   background-color: #d6b981;
+}
+
+.bg-filter {
+  background-color: #49340981;
+}
+
+.bg-button {
+  background-color: #ce9728;
+  &:hover {
+    background-color: #805705;
+  }
+}
+
+.bg-primary {
+  background-color: #fff0d1;
+}
+
+.bg-secondary {
+  background-color: #c69e5d;
 }
 
 .border-color {
@@ -44,4 +68,23 @@ body {
 
 .text-logo {
   color: #3b2802;
+}
+
+.text-primary {
+  color: #ffdfa0;
+}
+
+.text-secondary {
+  color: #fff3d9;
+}
+
+.text-tertiary {
+  color: #523205;
+/*   &:hover {
+    color: #ffd47f;
+  } */
+}
+
+.text-fourth {
+  color: #825804;
 }

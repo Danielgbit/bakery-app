@@ -1,23 +1,18 @@
 "use client";
 
 import navItems from "@/data/navItems";
-import useScroll from "@/hooks/useScroll";
-import { useEffect, useState } from "react";
+import useScrollDirection from "@/hooks/useScroll";
+import clsx from "clsx";
 
 const NavBar = () => {
-  const isScrolled = useScroll();
-
-  useEffect(() => {
-    console.log(isScrolled);
-  }, [isScrolled]);
+  const isScrolled = useScrollDirection();
 
   return (
     <header
-      className={`bg-navbar font-semibold mb-[0.8px] fixed top-0 z-50 w-full transition-all duration-400 ${
-          isScrolled 
-        ? 'translate-y-[-200px] shadow-md'
-        : 'transparent'
-      }`}
+      className={clsx('bg-navbar fixed top-0 w-full z-50 transition-all duration-300 ease-in-out', {
+        'translate-y-0' : isScrolled,
+        '-translate-y-100': !isScrolled
+      })}
     >
       <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
         <div className="text-2xl font-bold text-logo">
