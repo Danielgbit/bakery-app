@@ -23,24 +23,16 @@ body {
 
 /* BACKGROUNDS */
 
+.bg-filter {
+  background-color: #f5c76c15;
+}
+
 .bg-navbar {
   background: linear-gradient(
     90deg,
-    rgb(199, 166, 99) 90%,
-    rgb(99, 64, 2) 100%
+    rgb(255, 218, 143) 0%,
+    rgb(75, 48, 1) 100%
   );
-}
-
-.bg-events {
-  background-color: #67583b;
-}
-
-.bg-cards {
-  background-color: #d6b981;
-}
-
-.bg-filter {
-  background-color: #49340981;
 }
 
 .bg-button {
@@ -48,6 +40,26 @@ body {
   &:hover {
     background-color: #805705;
   }
+}
+
+/* BACKGROUND DARKS */
+
+.bg-dark {
+  background-color: #3b2802;
+}
+
+.bg-cards-secondary {
+  background-color: #6e531e;
+}
+
+/* BACKGROUND LIGHTS */
+
+.bg-events {
+  background-color: #d6bb84;
+}
+
+.bg-cards {
+  background-color: #d6b981;
 }
 
 .bg-primary {
@@ -58,14 +70,17 @@ body {
   background-color: #c69e5d;
 }
 
+.bg-hero {
+  background-color: #ffd2898c;
+}
+
 /* COLOR BORDER */
 
 .border-color {
   border-color: #ffeac0;
 }
 
-
-/* TEXT COLORS */
+/* TEXT COLORS ------------------ */
 
 .text-navbar {
   color: #ffedc9;
@@ -75,9 +90,7 @@ body {
   }
 }
 
-.text-logo {
-  color: #3b2802;
-}
+/* COLOR TEXT LIGHTS */
 
 .text-primary {
   color: #ffdfa0;
@@ -87,13 +100,20 @@ body {
   color: #fff3d9;
 }
 
-.text-tertiary {
-  color: #523205;
-  /*   &:hover {
-    color: #ffd47f;
-  } */
-}
-
 .text-fourth {
   color: #825804;
+}
+
+/* COLOR TEXT DARKS */
+
+.text-logo {
+  color: #3b2802;
+}
+
+.text-tertiary {
+  color: #523205;
+}
+
+.text-fifth {
+  color: #2e1f00;
 }
