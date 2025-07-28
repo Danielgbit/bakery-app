@@ -11,12 +11,9 @@ const useScrollDirection = () => {
   
         if (currentScroll > lastScrollY && currentScroll > 50) {
           setShowNavbar(false);
-          console.log('scroll', showNavbar);
           
         }else {
           setShowNavbar(true);
-          console.log('scroll', showNavbar);
-          
         };
       };
   

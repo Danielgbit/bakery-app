@@ -17,8 +17,8 @@ const Categories = ({ onSelect } : CategoriesProps) => {
             setActive(cat.id);
             onSelect(cat.id);
           }}
-          className={`px-4 py-1 rounded-xl text-sm cursor-pointer ${
-            active === cat.id ? "bg-yellow-400 text-white" : "bg-cards"
+          className={`px-4 py-1 rounded-xl text-sm border-color-two border-2 cursor-pointer ${
+            active === cat.id ? "bg-dark text-primary" : "bg-cards text-tertiary"
           }`}
         >
           {cat.name}

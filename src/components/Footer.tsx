@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="bg-yellow-800 text-white pt-16 pb-10">
+    <footer className="bg-footer text-primary pt-16 pb-5">
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Logo + Descripción */}
         <div>
@@ -60,7 +60,7 @@ const Footer = () => {
       </div>
 
       {/* Línea final */}
-      <div className="text-center text-xs mt-5 border-t pt-4">
+      <div className="text-left px-5 text-xs mt-5 border-t pt-4">
         © {new Date().getFullYear()} Panadería Delicias. Todos los derechos reservados.
       </div>
     </footer>

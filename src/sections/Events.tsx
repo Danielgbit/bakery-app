@@ -2,7 +2,7 @@ import events from "@/data/events";
 
 function Events() {
   return (
-    <section className="bg-events py-16 h-[600px]" id="eventos">
+    <section className="bg-events py-40" id="eventos">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-tertiary text-center mb-12">
           Próximos Eventos

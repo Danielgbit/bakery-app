@@ -5,7 +5,7 @@ import whatWeSell from "@/data/whatWeSell";
 function WhatWeSell() {
   return (
     <section
-      className="bg-primary py-16 text-center h-[900px]"
+      className="bg-primary py-30 text-center"
       id="que-vendemos"
     >
       <div className="max-w-4xl mx-auto px-4">
