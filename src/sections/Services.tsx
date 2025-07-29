@@ -1,5 +1,8 @@
+"use client";
+
 import { FaClock, FaParking, FaUtensils, FaStar } from "react-icons/fa";
 import { services } from "@/data/services";
+import { motion } from "framer-motion";
 
 const getIcon = (icon: string) => {
   const base = "text-primary text-3xl mb-4";
@@ -16,14 +19,26 @@ const getIcon = (icon: string) => {
       return null;
   }
 };
-
 const Services = () => {
   return (
-    <section id="servicios" className="py-20 lg:py-40">
+    <motion.section
+      initial={{ opacity: 0, y: 50 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 1, ease: "easeInOut" }}
+      viewport={{ once: false, amount: 0.2 }}
+      id="servicios"
+      className="py-20 lg:py-40"
+    >
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <h2 className="text-3xl font-bold text-fourth mb-12">
+        <motion.div
+          initial={{ opacity: 0, x: -50 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
+          viewport={{ once: false, amount: 0.3 }}
+          className="text-3xl font-bold text-fourth mb-12"
+        >
           Nuestros Servicios
-        </h2>
+        </motion.div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {services.map((service, index) => (
@@ -44,7 +59,7 @@ const Services = () => {
           ))}
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

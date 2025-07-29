@@ -1,4 +1,7 @@
+'use client'
+
 import events from "@/data/events";
+import { motion } from "framer-motion";
 
 function Events() {
   return (
@@ -9,19 +12,24 @@ function Events() {
         </h2>
 
         {/* CARDS */}
-        <div className="grid md:grid-cols-3 gap-8">
+        <div
+          className="grid md:grid-cols-3 gap-8"
+        >
           {events.map((e, index) => (
-            <div key={index} className="bg-cards-secondary rounded-xl shadow-md p-6 hover:shadow-lg transition">
+            <motion.div
+              initial={{ opacity: 0, y: 50 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              viewport={{ once: false, amount: 0.5 }}
+              key={index}
+              className="bg-cards-secondary rounded-xl shadow-md p-6 hover:shadow-lg transition"
+            >
               <h3 className="text-xl font-semibold text-primary mb-2">
                 {e.title}
               </h3>
-              <p className="text-secondary text-sm mb-3">
-                {e.date}
-              </p>
-              <p className="text-primary text-sm">
-                {e.description}
-              </p>
-            </div>
+              <p className="text-secondary text-sm mb-3">{e.date}</p>
+              <p className="text-primary text-sm">{e.description}</p>
+            </motion.div>
           ))}
         </div>
         {/* CARDS */}
