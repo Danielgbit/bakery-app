@@ -4,7 +4,10 @@ import bakeryBg from "../../public/images/Bakery.png";
 
 const Hero = () => {
   return (
-    <section id="inicio" className="relative mt-20 h-[600px] flex items-center justify-center">
+    <section
+      id="inicio"
+      className="relative mt-20 h-[600px] w-full flex items-center justify-center"
+    >
       {/* Imagen de fondo */}
       <Image
         alt="Imagen de tienda de panes"
@@ -19,13 +22,17 @@ const Hero = () => {
 
       {/* Contenido */}
       <div className="relative z-20 max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center">
-        <div className="md:w-[80%] text-center md:text-left p-5 rounded-4xl text-white">
-          <h2 className="text-6xl font-bold mb-4 text-primary">Pan recién horneado cada día</h2>
-          <p className="mb-6 text-primary font-medium text-lg tracking-text">
+        <div className="md:w-[80%] w-full text-center md:text-left p-5 rounded-4xl text-white">
+          <h2 className="md:text-6xl text-4xl font-bold mb-4 text-primary">
+            Pan recién horneado cada día
+          </h2>
+          <p className="mb-6 text-primary font-medium text-sm  md:text-lg tracking-text">
             Disfruta de nuestros productos artesanales elaborados con
             ingredientes frescos y mucho amor.
           </p>
-          <Button children="Ver productos" href="#productos" />
+          <div className="w-full">
+            <Button children="Ver productos" href="#productos" />
+          </div>
         </div>
       </div>
     </section>
