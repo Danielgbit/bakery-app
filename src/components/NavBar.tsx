@@ -40,7 +40,7 @@ const NavBar = () => {
 
         {/* Mobile Navigation */}
         {clicked && (
-          <nav className="fixed top-0 left-0 bg-navbar w-full h-screen z-50 flex flex-col items-center justify-center">
+          <nav className="fixed top-[-15%] left-0 bg-navbar w-full h-screen z-50 flex flex-col items-center justify-center">
             <FaXmark
               onClick={handleMenuClick}
               className="mb-10 text-4xl p-2 rounded-4xl bg-dark text-primary cursor-pointer"

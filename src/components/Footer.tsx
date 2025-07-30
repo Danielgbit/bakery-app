@@ -1,9 +1,6 @@
-// src/components/Footer.tsx
-
 import {
   FaInstagram,
   FaFacebookF,
-  FaTwitter,
   FaMapMarkerAlt,
   FaPhone,
   FaEnvelope,
@@ -13,7 +10,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer className="bg-footer w-full text-primary pt-16 pb-5">
-      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-[30%_70%] gap-8">
+      <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-[30%_65%] gap-8">
         {/* Logo + Descripción */}
         <div>
           <h2 className="text-2xl font-bold mb-4">Panadería Delicias</h2>
@@ -24,7 +21,7 @@ const Footer = () => {
         </div>
 
         {/* Info + Navegación */}
-        <div className="flex flex-col sm:flex-row justify-between gap-8">
+        <div className="flex flex-col  sm:flex-row justify-between gap-8">
           {/* Navegación */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Navegación</h3>
