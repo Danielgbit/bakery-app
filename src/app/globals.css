@@ -29,6 +29,15 @@ body {
 
 /* BACKGROUNDS COMPONENTS */
 
+.bg-gradient {
+  background: linear-gradient(
+    90deg,
+    rgb(194, 145, 55) 0%,
+    rgb(146, 109, 36) 35%,
+    rgba(158, 115, 28, 1) 100%
+  );
+}
+
 .bg-hero {
   background-color: #ffd2898c;
 }
@@ -40,15 +49,15 @@ body {
 .bg-navbar {
   background: linear-gradient(
     90deg,
-    rgb(255, 218, 143) 0%,
-    rgb(75, 48, 1) 100%
+    rgba(255, 219, 147, 0.68) 0%,
+    rgba(227, 166, 60, 0.842) 100%
   );
 }
 
 .bg-button {
   background-color: #ce9728;
   &:hover {
-    background-color: #805705;
+    background-color: #8b6009;
   }
 }
 
@@ -104,11 +113,19 @@ body {
 
 /* TEXT COLORS ------------------ */
 
+.text-button {
+  color: #352404;
+  border: 2px solid #fed990;
+  &:hover {
+    color: #fbd38d;
+  }
+}
+
 .text-navbar {
-  color: #ffedc9;
+  color: #271a02;
 
   &:hover {
-    color: #5a3d07;
+    color: #794d01;
   }
 }
 
@@ -142,13 +159,4 @@ body {
 
 .text-fifth {
   color: #2e1f00;
-}
-
-.bg-gradient {
-  background: linear-gradient(
-    90deg,
-    rgb(194, 145, 55) 0%,
-    rgb(146, 109, 36) 35%,
-    rgba(158, 115, 28, 1) 100%
-  );
 }
