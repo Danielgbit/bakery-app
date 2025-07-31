@@ -50,7 +50,15 @@ body {
   background: linear-gradient(
     90deg,
     rgba(255, 219, 147, 0.68) 0%,
-    rgba(227, 166, 60, 0.842) 100%
+    rgba(219, 142, 10, 0.842) 100%
+  );
+}
+
+.bg-modal {
+  background: linear-gradient(
+    90deg,
+    rgb(253, 196, 82) 0%,
+    rgb(189, 121, 3) 100%
   );
 }
 

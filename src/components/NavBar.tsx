@@ -16,10 +16,14 @@ const NavBar = () => {
   return (
     <header
       className={clsx(
-        "fixed top-2 left-1/2 transform py-1 -translate-x-1/2 z-50 w-[96%] rounded-4xl bg-navbar transition-all duration-300 ease-in-out shadow-md",
+        "fixed transform py-1 left-1/2 -translate-x-1/2 z-50 bg-navbar rounded-4xl transition-all duration-300 ease-in-out shadow-md",
         {
           "translate-y-0": isScrolled,
           "-translate-y-100": !isScrolled,
+          "top-0": clicked,
+          "top-2": !clicked,
+          "w-full": clicked,
+          "w-[96%]": !clicked,
         }
       )}
     >
@@ -27,9 +31,7 @@ const NavBar = () => {
         {/* Logo */}
         <div className="text-2xl font-bold text-logo">
           <h1 className="text-xs md:text-xl">Restaurant And Cafe Pro</h1>
-          <p className="hidden md:text-sm">
-            A Complete Theme For Food Service
-          </p>
+          <p className="hidden md:text-sm">A Complete Theme For Food Service</p>
         </div>
 
         {/* Mobile Menu Icon */}
@@ -40,7 +42,7 @@ const NavBar = () => {
 
         {/* Mobile Navigation */}
         {clicked && (
-          <nav className="fixed top-[-15%] left-0 bg-navbar w-full h-screen z-50 flex flex-col items-center justify-center">
+          <nav className="fixed top-0 left-0 bg-modal w-full h-screen z-50 flex flex-col items-center justify-center">
             <FaXmark
               onClick={handleMenuClick}
               className="mb-10 text-4xl p-2 rounded-4xl bg-dark text-primary cursor-pointer"
