@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import Button from "@/components/Button";
 import { motion } from "framer-motion";
@@ -8,14 +8,15 @@ function Discover() {
   const image =
     "https://plus.unsplash.com/premium_photo-1687904747536-139743e096a1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cGFuYWRlcm98ZW58MHx8MHx8fDA%3D";
 
-
   return (
     <motion.section
       initial={{ opacity: 0, y: 50 }}
       whileInView={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
       viewport={{ once: false, amount: 0.3 }}
-    className="bg-primary py-20" id="historia">
+      className="bg-primary py-20"
+      id="nosotros"
+    >
       <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
         {/* Imagen */}
         <div className="w-full md:w-1/2">

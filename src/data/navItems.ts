@@ -15,11 +15,11 @@ const navItems: NavItem[] = [
     },
     {
       name: "Eventos",
-      href: "#events",
+      href: "#eventos",
     },
     {
       name: "Servicios",
-      href: "#services",
+      href: "#servicios",
     },
   ];
 

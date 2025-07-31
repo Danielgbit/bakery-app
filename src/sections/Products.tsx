@@ -46,8 +46,9 @@ const ProductList = () => {
 
         {/* Descripción */}
         <p className="text-sm text-tertiary w-[90%] md:w-[80%] mx-auto font-semibold mb-10 mt-5">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat, qui
-          magni. Natus aut expedita dignissimos sint aspernatur dicta quidem.
+          Explora nuestro delicioso menú lleno de sabores auténticos: panes
+          recién horneados, pasteles artesanales, galletas caseras y café de
+          especialidad. Todo hecho con ingredientes naturales y mucho amor.
         </p>
 
         {/* Categorías */}

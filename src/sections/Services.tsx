@@ -27,7 +27,7 @@ const Services = () => {
       transition={{ duration: 1, ease: "easeInOut" }}
       viewport={{ once: false, amount: 0.2 }}
       id="servicios"
-      className="py-20 lg:py-40"
+      className="py-20 lg:py-50"
     >
       <div className="max-w-6xl mx-auto px-4 text-center">
         <motion.div
@@ -36,6 +36,7 @@ const Services = () => {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           viewport={{ once: false, amount: 0.3 }}
           className="text-3xl font-bold text-fourth mb-12"
+          id="servicios"
         >
           Nuestros Servicios
         </motion.div>
