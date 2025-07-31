@@ -47,7 +47,7 @@ function WhatWeSell() {
           ))}
         </div>
 
-        <Button children="Ver menú" href="#productos" />
+        <Button href="#productos" >Ver menú</Button>
       </div>
     </section>
   );

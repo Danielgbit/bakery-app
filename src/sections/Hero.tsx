@@ -52,7 +52,7 @@ const Hero = () => {
             viewport={{ once: false, amount: 0.5 }}
             className="w-full"
           >
-            <Button children="Ver productos" href="#productos" />
+            <Button href="#productos" >Ver productos</Button>
           </motion.div>
         </div>
       </div>

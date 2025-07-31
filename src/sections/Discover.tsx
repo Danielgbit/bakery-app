@@ -46,7 +46,7 @@ function Discover() {
             </p>
           </div>
           <div className="mt-8 md:mt-10">
-            <Button children="Ver historia" href="#historia" />
+            <Button href="#historia">Ver historia</Button>
           </div>
         </div>
       </div>
