@@ -1,4 +1,4 @@
-import Services from "@/data/services";
+import Services from "@/interface/Services";
 
 export const services: Services[] = [
   {
